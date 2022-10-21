@@ -1,0 +1,106 @@
+/* ---------------------------Just a basic setup to the body tag */
+body{
+    margin: 0;
+    background-color: grey;    
+}
+/* ------------------------This is the css related to the heading --------------------*/
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    /* border: 4px solid red; */
+}
+header div{
+    /* height: 40px; */
+    width: 50vw;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 8px burlywood;
+    background-image: linear-gradient(to right,grey,cyan);
+
+}
+/*---------- let's decorate the mini stop watch */
+header #heading i{
+    box-shadow: 0px 0px 15px 8px burlywood;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: burlywood;
+}
+
+/*--------------------------- Now here comes the css related to the main section i.e the clock-------------------------  */
+#outer{
+    height: 320px;
+    width: 370px;
+    border-radius: 50%;
+    background-color: gray;
+    box-shadow: 0px 0px 15px 8px burlywood;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid rebeccapurple; */
+    
+}
+
+#inner{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0px 0px 15px 8px cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#time-container{
+    width: 200px;
+    height: 50px;
+    /* border: 4px solid green; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* ----------------------------------Below are the three spans with their respective ids */
+#minute{
+    font-size:50px;
+}
+#second{
+    font-size: 35px;
+}
+#mil-second{
+    font-size: 25px;
+}
+/* ---------------------------------This is the button container in which Start and reset are there */
+#button-container{
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    /* border: 4px solid royalblue; */
+    /* border-radius: 30px; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#button-container button{
+    font-size:1.2rem;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 15px 8px burlywood;
+    background-image: linear-gradient(to right,grey,cyan);
+    padding: 3px;
+    font-weight: bold;
+    transition: background-image 10.3s ease-in-out,color 0.1s ease-in-out;
+}
+#button-container button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,black,black);
+    color: white;
+
+}
+
+

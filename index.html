@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- This is the title to the page -->
+    <title>StopWatch</title>
+    
+    <!-- Linking the css to our project -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- This is to include fontawesome script for the icons -->
+    <script src="https://kit.fontawesome.com/b98405c5eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id ="heading">
+            <h2>Below is a StopWatch <i class="fa-solid fa-stopwatch"></i> which you can use when needed.</h2>
+        </div>
+    </header>
+    <main>
+        <div id="outer">
+            <div id="inner">
+                <div id="time-container">
+                    <span id="minute">00</span>
+                    <span style="font-size: 30px;">:</span>
+                    <span id="second">00 </span>
+                    <span style="font-size:30px">:</span>
+                    <span id="mil-second">00</span>
+                </div>
+            </div>
+        </div>
+        <div id="button-container">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+            
+        
+
+        </div>
+    </main>
+    <!-- here I am linking the js file for the functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
